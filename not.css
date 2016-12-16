@@ -1,0 +1,15 @@
+body {
+	background-color: #800000;
+}
+
+.bacon img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.kermit img {
+	position: fixed;
+	bottom: 0;
+	left: 300px;
+}
