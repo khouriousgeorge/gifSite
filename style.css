@@ -1,0 +1,19 @@
+html {
+	overflow-x: hidden;
+	overflow-y: hidden;	
+	}
+	
+body {
+	background-image: url(standby.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	/*background-color: black;*/
+	background-size: cover;
+	/*background-size: max-height 100%;*/
+	}
+	
+.image-wrapper img {
+	vertical-align: top;
+	opacity: 0.0;	
+	}
