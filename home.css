@@ -1,0 +1,66 @@
+body {
+	background-image: url(gifs/cityNight.gif);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-color: black;
+	background-size: 100%;
+	/*background-size: max-height 100%;*/
+}
+
+.girl img {
+	position: fixed;
+	bottom: 0px;
+	left: -80px;
+	animation-duration: 10s;
+	animation-name: toTheRight;
+	animation-iteration-count: infinite;
+}
+
+@keyframes toTheRight {
+	from {
+		transform: translate(0,0);	
+	}
+	
+	to {
+		transform: translate(800%,100%)	
+	}
+}
+
+.elmo img {
+	position: fixed;
+	bottom: -20px;
+	right: 0px;
+	animation-duration: 4s;
+	animation-name: downUnder;
+	animation-iteration-count: infinite;
+}
+
+@keyframes downUnder {
+	from {
+		transform: translate(0,0);	
+	}
+	
+	to {
+		transform: translate(0,50%)	
+	}
+}
+
+.llama img {
+	position: fixed;
+	top: 50px;
+	right: 50px;
+	animation-duration: 0.44s;
+	animation-name: wee;
+	animation-iteration-count: infinite;
+}
+
+@keyframes wee {
+  from {
+    transform: rotate(0deg);
+  }
+  
+  to {
+    transform: rotate(360deg);
+  }
+}
