@@ -12,4 +12,80 @@ body {
 	/*background-color: black;*/
 	/*background-size: cover;*/
 	/*background-size: max-height 100%;*/
+}
+
+.girl1 img {
+	position: fixed;
+	bottom: 0px;
+	left: -400px;
+	animation-duration: 10s;
+	animation-name: toTheRight;
+	animation-iteration-count: 1;
+}
+
+@keyframes toTheRight {
+	from {
+		transform: translate(0,0);	
 	}
+	
+	to {
+		transform: translate(800%,100%);
+	}
+}
+
+.girl2 img {
+	position: fixed;
+	bottom: -400px;
+	right: 0px;
+	animation-duration: 10s;
+	animation-name: toTheTop;
+	animation-iteration-count: 1;
+}
+
+@keyframes toTheTop {
+	from {
+		transform: translate(0,0);	
+	}
+	
+	to {
+		transform: translate(100%,-800%);
+	}
+}
+
+.girl3 img {
+	position: fixed;
+	top: -400px;
+	left: 0px;
+	animation-duration: 10s;
+	animation-name: toTheBottom;
+	animation-iteration-count: 1;
+}
+
+@keyframes toTheBottom {
+	from {
+		transform: translate(0,0);	
+	}
+	
+	to {
+		transform: translate(-100%, 800%);
+	}
+}
+
+.girl4 img {
+	position: fixed;
+	top: 0px;
+	right: -400px;
+	animation-duration: 10s;
+	animation-name: toTheLeft;
+	animation-iteration-count: 1;
+}
+
+@keyframes toTheLeft {
+	from {
+		transform: translate(0,0);	
+	}
+	
+	to {
+		transform: translate(-800%,-100%);
+	}
+}

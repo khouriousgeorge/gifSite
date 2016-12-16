@@ -1,5 +1,19 @@
 body {
-	background-color: #ff0000;
+	background-image: url(highway.jpg);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: 100%;
+}
+
+.girl img {
+	position: fixed;
+	bottom: 0px;
+	left: -400px;
+	animation-duration: 10s;
+	animation-name: toTheRight;
+	animation-iteration-count: 1;
 }
 
 .bacon img {
@@ -30,4 +44,14 @@ body {
 	position: absolute;
 	bottom: 0;
 	right: 0;
+}
+
+@keyframes toTheRight {
+	from {
+		transform: translate(0,0);	
+	}
+	
+	to {
+		transform: translate(800%,100%);
+	}
 }
