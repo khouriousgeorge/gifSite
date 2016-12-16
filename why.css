@@ -1,0 +1,33 @@
+body {
+	background-color: #ff0000;
+}
+
+.bacon img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.bert1 img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.bert2 img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.bert3 img {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.bert4 img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

@@ -1,3 +1,7 @@
+head {
+	
+}
+
 body {
 	background-image: url(gifs/cityNight.gif);
 	background-repeat: no-repeat;
@@ -63,4 +67,10 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.bulb img {
+	position: fixed;
+	bottom: 100px;
+	right: 155px;
 }
