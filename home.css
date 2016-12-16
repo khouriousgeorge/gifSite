@@ -1,5 +1,6 @@
 head {
-	
+	background-image: url(wheatley.jpg);
+	background-repeat: repeat;
 }
 
 body {
@@ -73,4 +74,10 @@ body {
 	position: fixed;
 	bottom: 100px;
 	right: 155px;
+}
+
+.kreditKitten img {
+	position: fixed;
+	top: -280px;
+	left: 500px;
 }
