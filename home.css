@@ -11,7 +11,7 @@ body {
 .girl img {
 	position: fixed;
 	bottom: 0px;
-	left: -80px;
+	left: -400px;
 	animation-duration: 10s;
 	animation-name: toTheRight;
 	animation-iteration-count: 1;
